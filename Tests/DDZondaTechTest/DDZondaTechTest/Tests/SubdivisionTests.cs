@@ -28,8 +28,6 @@ namespace DDZondaTechTest.Tests
             //Act
             var subdivisionResponse = httpHelper.RequestBuilder(_endpoints.GetSubdivisionsDefault(), Method.Get);
 
-            Thread.Sleep(2000);
-
             //Assert
             Assert.That(subdivisionResponse.StatusCode, Is.EqualTo(HttpStatusCode.OK));
         }
@@ -111,7 +109,6 @@ namespace DDZondaTechTest.Tests
             //Arrange
             var httpHelper = new HTTPHelper();
             
-
             //Act
             var subdivisionResponse = httpHelper.RequestBuilder(_endpoints.GetSubdivisionsStatusFilterQuery(statusFilter), Method.Get);
 
@@ -127,7 +124,6 @@ namespace DDZondaTechTest.Tests
 
             return allSubdivisionsMatchStatus;
         }
-
         private int CountReturnedSubdivisionObjects(SubdivisionResponse response)
         {
             return response.Subdivisions.Count();
