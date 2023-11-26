@@ -5,7 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDZondaTechTest", "DDZondaTechTest\DDZondaTechTest.csproj", "{D5C283BF-EF09-405E-BF9A-E12353857A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests", "UITests\UITests.csproj", "{6A31E563-F235-4F1C-A3BE-3092CFE83A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UITests", "UITests\UITests.csproj", "{6A31E563-F235-4F1C-A3BE-3092CFE83A38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D5C283BF-EF09-405E-BF9A-E12353857A24} = {D5C283BF-EF09-405E-BF9A-E12353857A24}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

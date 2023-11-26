@@ -102,23 +102,6 @@ namespace DDZondaTechTest.Tests
             Assert.That(subdivisionResponse.StatusCode, Is.EqualTo(HttpStatusCode.MethodNotAllowed));
         }
 
-        //[Test]
-        //[TestCase(Method.Put)]
-        //[TestCase(Method.Options)]
-        //[TestCase(Method.Post)]
-        //[TestCase(Method.Delete)]
-        //public void Subdivisions_ShouldReturn_405MethodNotAllowed(Method httpMethod)
-        //{
-        //    //Arrange
-        //    var httpHelper = new HTTPHelper();
-
-        //    //Act
-        //    var subdivisionResponse = httpHelper.RequestBuilder(_endpoints.GetSubdivisionsDefault(), httpMethod);
-
-        //    //Assert
-        //    Assert.That(subdivisionResponse.StatusCode, Is.EqualTo(HttpStatusCode.MethodNotAllowed));
-        //}
-
         [Test]
         [TestCase("Future")]
         [TestCase("Builtout")]
