@@ -1,0 +1,9 @@
+﻿Tests/DDZondaTechTest/DDZondaTechTest/obj
+api/package-lock.json
+api/node_modules
+Tests/DDZondaTechTest/.vs
+Tests/DDZondaTechTest/DDZondaTechTest/bin
+Tests/DDZondaTechTest/TestResult.html
+web/package-lock.json
+Tests/DDZondaTechTest/UITests/bin/Debug/net7.0
+Tests/DDZondaTechTest/UITests/obj
